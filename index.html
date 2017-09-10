@@ -1,23 +1,26 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<title>about Kalimar Maia </title>
+<style>
+  nav {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+  }
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
 
-<div class="home">
+<body class="avenir">
+  <nav class="pa3 pa4-ns">
+    <div class="black b f1 f-headline-ns tc db mb3 mb4-ns" href="#" title="Home">Kalimar Maia</div>
+    <div class="tc pb3">
+      <a class="link gray f6 f5-ns dib mr3 hover-hot-pink" href="https://github.com/kalimar" title="GitHub">GitHub</a>
+      <a class="link gray f6 f5-ns dib mr3 hover-hot-pink" href="https://kalimar.github.io/golv2/" title="Game Of Life">Game Of Life</a>
+      <a class="link gray f6 f5-ns dib mr3 hover-hot-pink" href="https://kalimar.github.io/mapbox/" title="Mapbox">Mapbox</a>
+      <a class="link gray f6 f5-ns dib mr3 hover-hot-pink" href="https://www.linkedin.com/in/kalimarmaia/" title="LinkedIn">LinkedIn</a>
+    </div>
+  </nav>
+</body>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+</html>

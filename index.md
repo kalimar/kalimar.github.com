@@ -1,5 +1,3 @@
-# Kalimar Maia
-
 Customer Success & DevSecOps Adoption Leader | Deputy Program Manager | Former Solution Engineer | Helping teams modernize software delivery
 
 ---
